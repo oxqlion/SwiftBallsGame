@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F20874032E1F75FA00488653 /* RealityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20874022E1F75FA00488653 /* RealityKit.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		F20873C82E1F73DD00488653 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		F20873B72E1F73DC00488653 /* DraftBallMazeGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DraftBallMazeGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F20873C72E1F73DD00488653 /* DraftBallMazeGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DraftBallMazeGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F20873D12E1F73DD00488653 /* DraftBallMazeGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DraftBallMazeGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F20874022E1F75FA00488653 /* RealityKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealityKit.framework; path = System/Library/Frameworks/RealityKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F20874032E1F75FA00488653 /* RealityKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +84,7 @@
 				F20873B92E1F73DC00488653 /* DraftBallMazeGame */,
 				F20873CA2E1F73DD00488653 /* DraftBallMazeGameTests */,
 				F20873D42E1F73DD00488653 /* DraftBallMazeGameUITests */,
+				F20874012E1F75FA00488653 /* Frameworks */,
 				F20873B82E1F73DC00488653 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +97,14 @@
 				F20873D12E1F73DD00488653 /* DraftBallMazeGameUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F20874012E1F75FA00488653 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F20874022E1F75FA00488653 /* RealityKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

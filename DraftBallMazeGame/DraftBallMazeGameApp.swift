@@ -11,7 +11,7 @@ import SwiftUI
 struct DraftBallMazeGameApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MazeGameView()
         }
     }
 }
